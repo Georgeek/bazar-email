@@ -1,0 +1,59 @@
+// colors from _settings
+
+a {
+  text-decoration: underline;
+  color: $orange;
+
+  &:visited {
+    color: $orange;
+  }
+}
+
+.mail {
+  box-shadow: 0px 1px 40px 0px rgba(255, 126, 0, 0.4);
+}
+
+.col {
+  &--orange {
+    background-color: $orange;
+  }
+  &--footer {
+    background-color: $light-gray;
+  }
+}
+
+.info {
+  &__subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: $green-dark;
+  }
+
+  &__description {
+    font-size: 15px;
+    color: $medium-gray;
+  }
+
+  &__contacts {
+    font-weight: bold;
+  }
+
+  &--gray {
+    color: $medium-gray;
+  }
+
+  &__subtext {
+    font-size: 12px;
+    line-height: 1.667;
+  }
+}
+
+.title {
+  &--green {
+    color: $green-dark;
+  }
+
+  &--white {
+    color: $white;
+  }
+}
