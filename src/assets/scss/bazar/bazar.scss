@@ -4,7 +4,7 @@ a {
   text-decoration: underline;
   color: $orange;
 
-  &:visited {
+  &:visited, &:hover {
     color: $orange;
   }
 }
@@ -36,6 +36,13 @@ a {
 
   &__contacts {
     font-weight: bold;
+    color: $black;
+    text-decoration: none;
+
+    &:visited, &:hover {
+      color: $black;
+    }
+
   }
 
   &--gray {
